@@ -9254,3 +9254,19 @@ a[href^="tel:"] {
   white-space: nowrap !important;
 }
 
+/* FIX MOBILE VERTICAL SCROLLING ON HERO SLIDER & CAROUSEL IMAGES */
+.home-slider,
+.home-slider .slider-item,
+.home-slider .slider-item .overlay,
+.home-slider .container,
+.home-slider .slider-text,
+.owl-carousel,
+.owl-carousel .owl-stage,
+.owl-carousel .owl-stage-outer,
+.owl-carousel .owl-item,
+.owl-carousel.owl-drag .owl-item {
+  -ms-touch-action: pan-y !important;
+  touch-action: pan-y !important;
+}
+
+
