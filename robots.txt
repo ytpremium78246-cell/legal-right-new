@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Google Search Engine Sitemap Reference
+Sitemap: http://legalrightscenter.online/sitemap.xml
